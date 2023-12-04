@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pip{
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35.2rem;
+    background-position: center;
+    min-height: 100vh;
+
+}
