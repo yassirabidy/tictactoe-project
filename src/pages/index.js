@@ -13,7 +13,7 @@ const SignupPage = () => {
     event.preventDefault();
 
     // Validation des champs
-    if (!email || !password || password !== confirmPassword) {
+    if (!email || !password || password === confirmPassword) {
       setErrorMessage('Veuillez remplir tous les champs correctement');
       return;
     }
